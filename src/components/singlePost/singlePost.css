@@ -1,0 +1,50 @@
+.singlePost {
+  flex: 9;
+}
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+  /* display: block; */
+}
+
+.singlePostTitle {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: hsl(0, 0%, 20%);
+}
+
+.singlePostEdit {
+  float: right;
+  width: 25px;
+  height: auto;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.singlePostTrash {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.singlePostInfo {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: burlywood;
+  font-family: "Varela", sans-serif;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 14px;
+  font-family: "Varela", sans-serif;
+}
